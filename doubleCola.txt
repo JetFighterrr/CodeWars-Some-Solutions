@@ -1,0 +1,11 @@
+function whoIsNext(names, r){
+  const len = names.length;
+  let count = 1;
+  let result = r - 1 ;
+  while (result >= len * count){
+      result = result - len * count;
+      count *= 2;
+  }
+  result = Math.floor(result / count);
+  return names[result];
+}

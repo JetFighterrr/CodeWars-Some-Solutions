@@ -1,0 +1,22 @@
+const tree = (n)=>{
+  if ( !Number.isInteger(n) || (n<3)) return 'Error';
+  let result = '\n';
+  for(let i = 1; i<=n;i++){
+    for (let j = n; j>i;j--){
+        result +=  ' ';
+    }
+    for (let j = 1-i; j<i;j++){
+        result +=  '*';
+    }
+    result += '\n';
+  }
+  for (let j = 1; j<=Math.round(n/3); j++){
+    for (let j = n; j>1;j--){
+        result +=  ' ';
+    }
+    result += '*' + '\n';
+  }
+  return result;
+}
+
+console.log(tree(8));

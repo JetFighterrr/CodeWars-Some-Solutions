@@ -1,0 +1,2 @@
+npx create-react-app todo_new
+npm install redux react-redux redux-thunk --save

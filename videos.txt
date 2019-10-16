@@ -1,0 +1,67 @@
+Ресурсы для изучения. HTML + CSS + JS  https://youtu.be/QGVjrxCQAQ0
+10 Задач https://www.youtube.com/watch?v=G159ypijakg&t=730s
+
+JS 2-1 Variables, if else           https://youtu.be/bGWe54az254
+JS 2-2 Functions                    https://youtu.be/q-wEVHC8Pzg
+JS 2-3 Data types                   https://youtu.be/Fs6-t7JcPQ0
+JS 2-4 Functions                    https://youtu.be/sXPuShee-4k            
+JS 2-5 String functions             https://youtu.be/j3I54Slkn7E 
+JS 2-6 Code wars                    https://youtu.be/fjQintGEoe0 
+JS 2-7 String functions             https://youtu.be/xsW0jBwrI2g
+JS 2-7 For loop, Code wars          https://youtu.be/Z4IvUv9fDaY
+JS 2-8 Code wars                    https://youtu.be/BDgzra_cQ4o
+JavaScript Массивы                  https://youtu.be/9OcbiSdt1Lo      
+JS 2-9 Arrays, FizzBuzz             https://youtu.be/kX5wCjK9y8o
+JS 2-10 Arrays, Map, forEach        https://youtu.be/AL9ubtJk2ug
+JS 2-11 Problem solving, Arrays     https://youtu.be/ffdJSqc1vUA
+JS 2-12 Problem solving, Sat        https://youtu.be/bmN3O3FRxMk
+JS 2-13 Variables, Data types       https://youtu.be/o0j7e93h4ek
+JS 2-14 Функции, повторение         https://youtu.be/-RqCCCXcEkI
+JS 2-15 Sat                         https://youtu.be/1gzSumPO4to
+JS 2-16 String.prototype, this      https://youtu.be/w_FwJ90TQ9c
+JS 2-17 Решение тестов              https://youtu.be/OF93FQiHp50
+JS 2-18 sat Codepad                 https://youtu.be/1flYHagLbSs
+JS 2-19 Решение задач               https://youtu.be/HkUDETck6mo  
+JS 2-20 Решение задач               https://youtu.be/lQ4E8RBzb2w
+JS 2-21 sat                         https://youtu.be/6DdczsU0lf8
+JS 2-22 Решение задач               https://youtu.be/JG1v1TziA00      
+JS 2-23 Решение задач               https://youtu.be/UxKRg68_Ct0
+JS 2-24 Решение задач               https://youtu.be/hf_XgIDMAZA
+JS 2-25 Webstorm Jest тесты         https://youtu.be/LlYkB7e89iU
+JS 2-26 Jest тесты                  https://youtu.be/TXwmSWLi2Hw
+JS 2-27 Html, Css, Git              https://youtu.be/yombMdnHYew
+JS 2-28 Html + JS events, DOM. GIT  https://youtu.be/W2I70oHlqno
+JS 2-29 JS calculator               https://youtu.be/nZTPB8i-Sfo
+JS 2-30 JS calculator               https://youtu.be/7O7_gE5Livw
+JS 2-31 DOM manipulation            https://youtu.be/5pDl6A78Ntg 
+JS 2-32 HTML JS TODO list           https://youtu.be/KiUX5xB9w2M
+JS 2-33 Jest                        https://youtu.be/1RMkcb44aW8
+JS 2-34 Local, Session storage      https://youtu.be/AOO_cacBccI
+JS 2-35 HMLHttpRequest              https://youtu.be/RQVXwyDiWEE
+JS 2-36 setTimeout                  https://youtu.be/24sdVO3FEtY
+JS 2-37 Codewars                    https://youtu.be/ptR280qSyDo   
+JS 2-38 Codewars                    https://youtu.be/XqEix5rwd_k
+JS 2-39 REST API                    https://youtu.be/mMHZB7ynmeQ
+JS 2-40 Express                     https://youtu.be/bYeeVY211-c
+JS 2-41 React                       https://youtu.be/zYWKcASBtrw
+JS 2-42 React                       https://youtu.be/FXuDCb3cJrM
+JS 2-43 sat React                   https://youtu.be/Y_P8bXKP6S0
+JS 2-44 React callbacks             https://youtu.be/YNvha_xmy80
+JS 2-45 React Random User           https://youtu.be/BPCeijzcRZk
+JS 2-46 Resume                      https://youtu.be/PtnYmTv-WwA
+JS 2-47 Parcel, ESLint, Pretier, Flow https://youtu.be/j20aHm9gYBY
+JS 2-48 CRA, Eslint, Prettier, Flow https://youtu.be/3dC_-YwAiTg 
+JS 2-49 CRA, callbacks              https://youtu.be/PZm_i09hWEI
+JS 2-50 CRA Bootstrap               https://youtu.be/m9qAie2cu7I
+JS 2-51 Redux intro                 https://youtu.be/yBWZ9WyyCms
+JS 2-52 Postman, Express, React     https://youtu.be/sPguJfNDIAA
+JS 2-53 Redux                       https://youtu.be/GW2kP5OB7ug
+JS 2-54 Redux API call              https://youtu.be/vCeQSmyz8Ho
+JS 2-55 Project                     https://youtu.be/gGoDV9i_kwI
+JS 2-56 Project                     https://youtu.be/n0dG0gXqVHQ
+JS 2-57 Project                     https://youtu.be/p-fZziXg5qY
+JS 2-58 Server                      https://youtu.be/bY41LePRrjc
+JS 2-59 Client                      https://youtu.be/i5YGd824Rzw
+JS 2-60 Redux                       https://youtu.be/slEcIeFWxJw
+JS 2-61                             https://youtu.be/XFqiIZssgFI
+JS 2-62                             https://youtu.be/e_CObvx-QAY

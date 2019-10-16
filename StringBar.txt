@@ -1,0 +1,19 @@
+function getRectangleString(width, height) {
+  let result = '';
+  for (i=0;i<height;i++){
+      if( (i == 0) || (i == (height-1) ) ) {
+          for (j=0;j<width; j++) {
+              result += '*';
+          }
+        }  else {
+          result += '*';
+          for (j=1;j<width-1; j++) {
+              result += ' ';
+          }
+          }
+      result += '\r\n';    
+        
+      }
+  }
+  return result;
+}

@@ -1,0 +1,15 @@
+function solve(a,b){
+  let result = '';
+  let arr = [2];
+  for(let i=3; result.length < a+b+1; i++ ){
+      let div = false;
+      for(let j=0; j < arr.length && !div; j++){
+          if ( i % arr[j] === 0 ) div = true;      
+      }
+      if (!div){
+        arr.push(i);
+        result += i.toString();
+      }
+  }
+  return result.substring(a-1,a+b-1);
+}

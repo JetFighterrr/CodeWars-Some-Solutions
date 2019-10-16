@@ -1,0 +1,21 @@
+function birdCode(arr){
+    let result = [];
+    arr.forEach( x => result.push(birdCodeFromString(x)));
+    return result;
+}
+
+function birdCodeFromString(string){
+    let regExp = / |-/;
+    let result = string.split(regExp);
+    let num = result.length;
+    if (num === 1 ){
+        return string.slice(0,4).toUpperCase();
+    }  else if (num===2) {
+        return (result[0].slice(0,2) + result[1].slice(0,2)).toUpperCase();
+    }  else if (num===3) {
+        return (result[0].slice(0,1) + result[1].slice(0,1) + result[2].slice(0,2)).toUpperCase();
+    }  if (num===4) {
+        return (result[0].slice(0,1) + result[1].slice(0,1) + result[2].slice(0,1)+result[3].slice(0,1)).toUpperCase();
+    }
+    return 'Fial';
+}

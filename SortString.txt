@@ -1,0 +1,14 @@
+const orderWord = (string) =>{
+  //your code here
+if(string){
+    var stringArray = string.split('')
+  var sortedResult = stringArray.sort()
+  var sortedStringResult = sortedResult.join('')
+//  console.log(sortedStringResult) 
+return sortedStringResult
+}
+else
+{
+return 'Invalid String!'
+}
+}

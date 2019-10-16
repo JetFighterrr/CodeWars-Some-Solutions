@@ -1,0 +1,31 @@
+Sergei Igoshin 
+Frontend Engineer: React JS
+San Jose, CA, 95117
+(408) 622-0140 
+sergei.igoshin@yahoo.com
+TECHNICAL SKILLS
+Web: JavaScript (ES5/ES6/ES7), HTML5, CSS3, Twig, Mustache, Handlebars, REST API
+Web Frameworks: ReactJS, Redux, VueJS, jQuery, LESS, SASS, Bootstrap 3/4, Foundation, Semantic UI, Meterial UI
+Backend: NodeJS, ExpressJS, PHP
+DataBases: MongoDB, MySQL
+Development process: Waterfall, Scrum
+Automation tools: HP Performance Center, JMeter, SoapUI, Selenium, Specflow, Jenkins, NUnit, Vmware, Jest
+Tool: Git, Gulp
+Platforms: Windows, Red Hat, Android 
+EXPERIENCE
+Software engineer at Agilent Technologies, Santa Clara, CA                 (August 2017-present)
+•	Create Specflow/C# auto-test for automated testing of desktop application
+•	Reviewed and verified new UI tests for C# application as part of Scrum development process
+•	Updating current scheme of client-server interaction with added RESTful and microservices
+•	Prepare and run performance tests via JMeter on OpenLab servers based MSSQL, Oracle, Postgre
+Frontend Engineer at Aziks Web Store, Moscow, Russia	          (Sept.2014 – April 2017)
+•	aziks.ru, era-teks.ru, ckalvin.ru
+•	Developed several e-stores based on design from customer using ReactJS, HTML5, Bootstrap
+•	Continuous improvements over website design towards rise of sales
+•	Test tool used for checks: Selenium WebDriver, SoapUI, Red Hat, Shell
+•	Improvements over customer cart increased conversion for 23%
+•	Added feedback form for user interaction with operator
+•	Handled and fixed various defects and inconsistencies
+EDUCATION
+M.Sc. at Applied Mathematics and Physics, 2010
+Moscow Institute of Physics and Technology (MIPT), Moscow, Russia

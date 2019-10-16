@@ -1,0 +1,30 @@
+function averageString(str) {
+  // Code away 
+    let env = str;
+    let arr = [];
+    let sum = 0;
+    const sample = ['zero', 'one', 'two', 'three', 'four' , 'five' , 'six', 'seven', 'eight', 'nine'];
+    let position = env.search(' ');
+    while( position > 0 ){
+        arr.push(env.slice(0,position));
+        env = env.slice(position+1);
+        position = env.search(' ');
+    }
+    arr.push(env);
+    for (i=0; i<arr.length; i++){
+        let boo = true;
+
+        for (j=0; j<sample.length; j++){
+          if ( arr[i].search(sample[j]) >= 0) {
+          sum += j;
+          boo = false;
+          }
+        }
+        if (boo) {
+          return 'n/a';
+        }
+    }    
+    let average = Math.floor(sum / arr.length);
+    return sample[average];
+}
+console.log(averageString("zero nine five two"));

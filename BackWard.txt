@@ -1,0 +1,56 @@
+function backwardsPrime(start, stop){
+  const primeArray = [];
+  let stopRoot = Math.sqrt(stop);
+  for(let i = 2; i <= stop; i++){
+      let exists = false;
+      let elRoot = Math.sqrt(i);
+      for( let j = 0; j < primeArray.length; j++){
+        if (primeArray[j] > elRoot) break;  
+        if ( i % primeArray[j] === 0){
+              exists = true;
+              break;
+          }
+          
+      }
+      if (!exists) {
+          primeArray.push(i);
+      }
+  }
+  const result = [];
+  for (let i = primeArray.length - 1; i > 0; i--){
+      if (primeArray[i] > start){
+          if (backward(primeArray[i],primeArray)) {result.push(primeArray[i]);}
+      }
+      else break;
+  }
+  return result.reverse();
+}
+
+function backward(number,array){
+  const newArray = array;
+  const checkNumber = +number.toString().split('').reverse().join('');
+  if (array.includes(checkNumber)) return true;
+  let root = Math.sqrt(checkNumber);
+  if (root > array[array.length - 1]){
+        for( let j = 0; j < array.length; j++){
+                if (array[j] > root) return true;  
+                if ( checkNumber % array[j] === 0) return false;
+         }
+         return true; 
+  }
+  else {
+     for( let i = 2; i <= root; i++){
+                if ( checkNumber % i === 0) return false;
+         }
+    return true;
+  }
+}
+
+function maxRoot()
+
+
+
+console.log( backwardsPrime(7000,7100));
+console.log( backward(7027,[]));
+console.log( backward(7057,[]));
+
