@@ -4,7 +4,6 @@ function permutation(str){
         for(let j = 0; j < result.length; j++){
             result[j] = populateArray(result[j], str[i]);
             }
-//         result = result.toString().split(',');
         result = result.reduce((acc,el) => acc.concat(el),[]);
     }
     return result;
