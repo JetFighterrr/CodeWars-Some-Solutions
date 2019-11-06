@@ -1,0 +1,35 @@
+ * @return {number[][]}
+ */
+let threeSum = function(nums) {
+    if(nums.length < 3) return [];
+    let result = [];
+    let S = new Set(nums);
+    for(let i = 0; i < nums.length - 2; i++){
+        for(let j = i + 1; j < nums.length - 1; j++){
+            let third = - nums[i] - nums[j];
+                if (nums.includes(third, j + 1)){
+                    result.push(orderedTriplet(nums[i], nums[j], third));
+                }
+        }
+    }
+    if(result.length < 2) {
+        return result;
+    }
+    return result.reduce( (acc, current) => includesArr(acc, current) ? acc : [...acc, current], [result[0]] );
+};
+
+function orderedTriplet(a,b,c){
+    let min = Math.min(a,b,c);
+    let max = Math.max(a,b,c);
+    return [min, a + b + c - max - min, max];
+}
+
+function includesArr(arr,b){
+    if (arr.length < 1) return false;
+    for(let k of arr){
+        if( (k[0] === b[0]) && (k[1] === b[1]) && (k[2] === b[2]) ){
+            return true;
+        }
+    }
+    return false;
+}
